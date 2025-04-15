@@ -70,3 +70,20 @@ insert into
 	update SinhVien set diem_trung_binh = 7 where id = 2 ;
 	update SinhVien set diem_trung_binh = 7 where id = 3 ;
 	update SinhVien set diem_trung_binh = 7 where id = 4 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
