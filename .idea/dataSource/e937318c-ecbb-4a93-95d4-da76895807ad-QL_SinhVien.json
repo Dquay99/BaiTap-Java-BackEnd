@@ -1,0 +1,19 @@
+{
+  "name" : "QL_SinhVien",
+  "VIEWS" : [ ],
+  "FUNCTIONS" : [ ],
+  "TABLES" : [ {
+    "TABLE_NAME" : "DiemThi",
+    "TABLE_COMMENT" : "",
+    "IS_TEMPORARY" : "N"
+  }, {
+    "TABLE_NAME" : "MonHoc",
+    "TABLE_COMMENT" : "",
+    "IS_TEMPORARY" : "N"
+  }, {
+    "TABLE_NAME" : "SinhVien",
+    "TABLE_COMMENT" : "",
+    "IS_TEMPORARY" : "N"
+  } ],
+  "PROCEDURES" : [ ]
+}
