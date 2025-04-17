@@ -1,11 +1,21 @@
 package BaiTapModule2;
 
-public class Employee {
+public class Employee implements Workable {
    private String name ;
    private int age ;
    private double salary ;
 
+    public void displayInfo(){
+        System.out.println("Tên nhân viên : " + name);
+        System.out.println("Tuổi nhân viên : " + age);
+        System.out.println("Lương của nhân viên : " + salary);
+    }
 
+    public Employee(String name, double salary, int age) {
+        this.name = name;
+        this.salary = salary;
+        this.age = age;
+    }
 
     public String getName() {
         return name;
@@ -30,4 +40,11 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+
+
+    public void work() {
+        System.out.println(name + "đang in tài liệu");
+    }
+
 }
